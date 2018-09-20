@@ -39,3 +39,8 @@ ul.topnav li {
 ul.topnav li.topnav-right {
     float: right;
 }
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+}
