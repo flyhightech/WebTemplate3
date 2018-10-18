@@ -27,7 +27,6 @@ nav ul {
     background-color: yellow;
     overflow: hidden;
     margin: 0;
-    display: block;
     padding: 0;
 }
 
@@ -43,4 +42,14 @@ ul.topnav li.topnav-right {
 ul.topnav li a {
     display: block;
     text-decoration: none;
+    min-height: 20px;
+    text-align: center;
+    padding: 14px;
+    text-transform: capitalize;
+    color: #666;
+}
+
+ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: white;
 }
