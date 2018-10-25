@@ -1,4 +1,4 @@
-/*      Defaults    */
+/*      Defaults Styles    */
 
 nav,
 header,
@@ -16,7 +16,89 @@ body {
 
 }
 
-/*      Navbar     */
+.container {
+
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+.row {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.row::after {
+
+    display: table;
+    clear: both;
+    content: "";
+
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+
+
+
+
+/*      Navbar Styles    */
 
 nav {
     width: 100%;
@@ -57,6 +139,50 @@ ul.topnav li a:hover {
 ul.topnav li.dropdownIcon {
     display: none;
 }
+
+
+
+
+
+
+/* Custom styles */
+
+#section_1_gradient {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.leftside-col {
+
+    margin-left: 15%;
+}
+
+h1.large {
+
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    line-height: 70px;
+
+}
+
+form h2 {
+
+    color: white;
+
+}
+
+input[type="text"] {
+
+    font-size: 30px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+
+}
+
+
+
+
 
 
 /* Media Queries */
