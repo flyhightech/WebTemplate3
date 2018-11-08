@@ -42,7 +42,6 @@ body {
     clear: both;
     content: "";
 
-
 }
 
 .col-1 {
@@ -94,10 +93,6 @@ body {
 }
 
 
-
-
-
-
 /*      Navbar Styles    */
 
 nav {
@@ -141,10 +136,6 @@ ul.topnav li.dropdownIcon {
 }
 
 
-
-
-
-
 /* Custom styles */
 
 #section_1_gradient {
@@ -181,12 +172,9 @@ input[type="text"] {
     width: 400px;
     min-width: 100px;
     padding: 5px;
+    border-radius: 7px;
 
 }
-
-
-
-
 
 
 /* Media Queries */
@@ -222,4 +210,22 @@ input[type="text"] {
         text-align: left;
     }
 
+    .col-6 {
+        width: 100%;
+        margin: 0;
+    }
+
+    div.leftside-col,
+    div.rightside-col {
+
+        margin: 15px;
+
+    }
+
+    input[type="text"] {
+        width: 350px;
+    }
+
 }
+
+/* End of max-width: 680px media query */
