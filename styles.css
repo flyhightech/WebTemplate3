@@ -226,6 +226,11 @@ input[type="text"] {
         width: 350px;
     }
 
+    .videoContainer iframe {
+        position: relative;
+        width: 100%;
+    }
+
 }
 
 /* End of max-width: 680px media query */
