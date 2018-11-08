@@ -151,9 +151,13 @@ ul.topnav li.dropdownIcon {
     background-image: linear-gradient(to bottom right, red, yellow);
 }
 
-.leftside-col {
+div.leftside-col {
 
     margin-left: 15%;
+}
+
+div.rightSide-col {
+    margin-left: 14%;
 }
 
 h1.large {
