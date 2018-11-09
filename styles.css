@@ -16,6 +16,18 @@ body {
 
 }
 
+label {
+
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
 .container {
 
     display: block;
@@ -140,6 +152,18 @@ ul.topnav li.dropdownIcon {
 
 #section_1_gradient {
     background-image: linear-gradient(to bottom right, red, yellow);
+    height: 400px;
+}
+
+div.box {
+    text-align: center;
+    background-color: chartreuse;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+    0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+div.icon {
+    width: 100%;
 }
 
 div.leftside-col {
@@ -157,6 +181,13 @@ h1.large {
     font-size: 50px;
     margin: 0;
     line-height: 70px;
+
+}
+
+h1.section2Header {
+
+    font-size: 65px;
+    text-align: center;
 
 }
 

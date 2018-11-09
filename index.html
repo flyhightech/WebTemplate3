@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> Website Template 320 </title>
+    <title> BernardTheEngineer </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,7 +15,13 @@
             <li><a href="#about">About</a></li>
             <li class="topnav-right"><a href="#signUp">Sign-Up</a></li>
             <li class="topnav-right"><a href="#signIn">Sign-In</a></li>
+
+            <!--            The following code prevents the javascript from running            -->
+
             <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+
+            <!--            That piece of code ends here.             -->
+
         </ul>
     </nav>
 
@@ -37,7 +43,7 @@
             </div>
             <div class="col-6">
                 <div class="rightside-col">
-                    <div>
+                    <div class="videoContainer">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/IjWfwkLSKtA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                     </iframe>
                     </div>
@@ -47,11 +53,30 @@
 
     </div>
 
+    <header>
+        <h1 class="section2Header">The Coders Journey</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <div>
+                        <label> Chat with me </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
 
+    <!-- Below are the scripts -->
     <script>
         function dropdownMenu() {
             var x = document.getElementById("dropdownClick");
