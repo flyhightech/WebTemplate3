@@ -22,6 +22,11 @@ p {
     line-height: 1.2;
 }
 
+article p {
+    font-size: 35px;
+    padding: 30px;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -162,6 +167,12 @@ div.box {
     0 2px 3px 0 rgba(0, 0, 0, .1);
 }
 
+div.slopeIcon img {
+    display: block;
+    margin: auto;
+    box-shadow: -2px -2px 5px 2px rgba(0, 0, 0, .15), 2px 2px 4px 2px rgba(0, 0, 0, 1);
+}
+
 div.icon {
     width: 100%;
 }
@@ -185,11 +196,11 @@ button.learnMore {
 
 div.leftside-col {
 
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 div.rightSide-col {
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 h1.large {
@@ -253,7 +264,13 @@ input[type="text"] {
         font-size: 50px;
     }
 
+    article p {
+        font-size: 25px;
+    }
+
+    .col-7,
     .col-6,
+    .col-5,
     .col-4 {
         width: 100%;
         margin: 0;
@@ -262,6 +279,14 @@ input[type="text"] {
     div.box {
         padding: 5px;
         display: block;
+    }
+
+    div.slopeIcon {
+        margin: 10px;
+    }
+
+    div.slopeIcon img {
+        width: 100%;
     }
 
     div.leftside-col,
